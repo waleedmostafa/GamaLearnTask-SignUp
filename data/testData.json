@@ -1,0 +1,19 @@
+{
+  "URL": "https://app-stg.swiftassess.com/Signup",
+
+  "SignUpData" : {
+    "Organization" : "GamaLearn",
+    "Name" : "waleed",
+    "Email" : "waleed.mostafa00rt11210100@gmail.com",
+    "AccountName" :  "waleed0101"
+
+  },
+  "ValidationMessage" : "An email confirmation has been sent to your address",
+  "InvalidEmail" : "waleed@most",
+  "EmailErrorMessage" : "Invalid email format",
+  "EmailRequiredErrorMessage" : "Email is required",
+  "NameErrorMessage" : "Contact name is required",
+  "AccountNameErrorMessage" : "Account name should be at least 5 characters. No spaces are allowed",
+  "AccountNameEmptyErrorMessage" : "Site Address is required"
+
+}
