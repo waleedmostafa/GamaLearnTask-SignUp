@@ -12,7 +12,7 @@ public class SignUpTests extends BaseTest {
     public void signUpWithValidData() throws FileNotFoundException{
         homePage.insertOrganization(dataModel().SignUpData.Organization);
         homePage.insertName(dataModel().SignUpData.Name);
-        homePage.insertEmail(dataModel().SignUpData.Email2);
+        homePage.insertEmail(dataModel().SignUpData.Email);
         homePage.selectCountry("Egypt");
         homePage.selectAccountType("General");
         homePage.insertAccountName(dataModel().SignUpData.AccountName);
@@ -25,7 +25,7 @@ public class SignUpTests extends BaseTest {
     @Test
     public void signUpWithoutUnRequiredFields() throws FileNotFoundException{
         homePage.insertName(dataModel().SignUpData.Name);
-        homePage.insertEmail(dataModel().SignUpData.Email);
+        homePage.insertEmail(dataModel().SignUpData.Email2);
         homePage.insertAccountName(dataModel().SignUpData.AccountName);
         homePage.clickOnSignUpButton();
         String expectedResult = dataModel().ValidationMessage;
