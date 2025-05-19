@@ -12,7 +12,7 @@ public class SignUpTests extends BaseTest {
     public void signUpWithValidData() throws FileNotFoundException{
         homePage.insertOrganization(dataModel().SignUpData.Organization);
         homePage.insertName(dataModel().SignUpData.Name);
-        homePage.insertEmail(dataModel().SignUpData.Email);
+        homePage.insertEmail(dataModel().SignUpData.Email2);
         homePage.selectCountry("Egypt");
         homePage.selectAccountType("General");
         homePage.insertAccountName(dataModel().SignUpData.AccountName);
